@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#fontloader{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body{
+    background-color: #333333;
+}
+
+.canvas {
+    /*border-style: solid;
+    border-color: white;
+    border-width: 1px;*/
+    padding: 0;
+}
+
+
+
+#map{
+    background-color: darkorchid;
+/*    border: white 1px solid;*/
+}
+
+#toprow{
+    height: 25vh;
+    border-style: none;
+}
+
+.container{
+    padding: 0;
+}
+
+.gmnoprint a, .gmnoprint span, .gmnoprint {
+  display: none;
+}
+
+.gmnoprint div {
+  background: none !important;
+}
+
+#time{
+     position: absolute;
+  padding: 30px 140px 0px 140px;
+  top: 600px;
+  left: 765px;
+  background: linear-gradient(to bottom, rgba(51,51,51,0), rgba(51,51,51,1), rgba(51,51,51,1));
+    z-index: 1000;
+/*    border: white 1px solid;*/
+}
+
+#carinfo{
+     position: absolute;
+  padding: 25px 200px 25px 200px;
+  top: 240px;
+  left: 765px;
+  background: linear-gradient(to bottom, rgba(51,51,51,1), rgba(51,51,51,1), rgba(51,51,51,0));
+    z-index: 1001;
+/*    border: white 1px solid;*/
+}
+
+#timetext{
+    color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHVcLxTOD5M2zYPnr-mYWtxOdqqEGasaI"
+            async defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="fontloader" style="font-family: 'Open Sans', sans serif;">.</div>
+        <div class="row" id="toprow" ></div>
+            <div class="row" >
+            <div style="position: relative;">
+<!--
+ <canvas id="layerLeft" width="400" height="400" 
+   style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+<canvas id="gaugeLeft" width="400" height="400"
+   style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+-->
+</div>
+            </div>
+            
+             <div id="time">
+                <p id="timetext"></p>
+            </div>
+            <div id="carinfo">
+            </div>
+        <div class="row" id="display">
+            
+        <canvas class="col-md-4 canvas" id="gaugeLeft" height="420" width="380">
+        Je browser ondersteund het canvas element niet.
+        </canvas>
+                
+                <div class="col-md-4" id="map" height="420">
+            
+                </div>
+               
+            
+
+        <canvas class="col-md-4 canvas" id="gaugeRight" height="420" width="380">
+        Je browser ondersteund het canvas element niet.
+        </canvas>
+
+        
+<!--
+            <div style="position: relative;">
+                <canvas id="layerRight" width="400" height="400" 
+               style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+<canvas id="gaugeRight" width="400" height="400"
+   style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+</div>
+-->
+            
+        </div>
+        
+            <div class="row" >
+            </div>
+            
+        </div>
+        
+        
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
